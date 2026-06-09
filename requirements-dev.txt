@@ -1,4 +1,7 @@
 ##  Development requirements file for RiverWatch
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 fastapi==0.115.0
 uvicorn[standard]==0.30.0
 python-multipart==0.0.9
@@ -18,7 +21,9 @@ pytest-asyncio==0.23.6
 
 # for torch and onnxruntime, see https://pytorch.org/get-started/locally/
 # --index-url https://pytorch.org
---index-url https://download.pytorch.org/whl/cpu
+
 torch==2.4.0+cpu
 torchvision==0.19.0+cpu
 onnxruntime==1.19.2
+transformers==4.45.2
+
